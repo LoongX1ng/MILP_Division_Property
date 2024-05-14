@@ -1,6 +1,7 @@
 ### Algorithm 1
 
 This folder implementes the algorithm to select a set of linear inequalities from the H-Representation of a set of points, which corresponds to the Algorithm 1 presented in the paper.
+
 此文件夹实现从一个点集的H表示中选择一组线性不等式的算法，对应文章中的算法1。
 * [cipher_Inequalities.txt] ---This txt file contains the H-Representation of a given set of points, which is actually a set of linear inequalities returned by Sage software. Sage returns a linear inequality with the form $(a_1, a_2, ..., a_n)\cdot x^{T} + b >= 0$, this linear inequalty will be stored within a single line in cipher_Inequalities.txt with the form $(a_1, a_2, \cdots, a_n, b)$. The cipher_Inequalities.txt presented here contains all the linear inequalities among the H-Representation of the division trails of PRESENT Sbox with each line representing a single inequality.
 * 此txt文件包含一个给定点集的H表示，实际上是一组由Sage软件返回的线性不等式。Sage以$(a_1, a_2, ..., a_n)\cdot x^{T} + b >= 0$的形式返回线性不等式，以$(a_1, a_2, \cdots, a_n, b)$的格式存在cipher_Inequalities.txt中，每个不等式一行。The cipher_Inequalities.txt包含PRESENT的S盒的可分轨迹的H表示的全部不等式，一行代表一个不等式。
